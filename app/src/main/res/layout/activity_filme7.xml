@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".filme7">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000">
+
+            <ImageView
+                android:id="@+id/trailer_filme7"
+                android:layout_width="266dp"
+                android:layout_height="304dp"
+                android:layout_marginTop="14dp"
+                android:contentDescription="@string/trailer7"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/filme7" />
+
+            <TextView
+                android:id="@+id/txt_auxilio_trailer"
+                android:layout_width="260dp"
+                android:layout_height="16dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center_horizontal"
+                android:text="@string/orientacao_trailer"
+                android:textAlignment="center"
+                android:textColor="#BFBFBF"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/trailer_filme7" />
+
+            <TextView
+                android:id="@+id/txt_sobre_filme"
+                android:layout_width="100dp"
+                android:layout_height="19dp"
+                android:layout_marginTop="32dp"
+                android:gravity="center_horizontal"
+                android:text="@string/sobre"
+                android:textAlignment="center"
+                android:textColor="#BFBFBF"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.05"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_auxilio_trailer" />
+
+            <TextView
+                android:id="@+id/txt_sobre_filme7"
+                android:layout_width="344dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="36dp"
+                android:gravity="center_horizontal"
+                android:text="@string/sobre_filme7"
+                android:textAlignment="center"
+                android:textColor="#BFBFBF"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.492"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_sobre_filme" />
+
+            <TextView
+                android:id="@+id/txt_direcao"
+                android:layout_width="87dp"
+                android:layout_height="19dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="28dp"
+                android:gravity="center_horizontal"
+                android:text="@string/direcao"
+                android:textAlignment="center"
+                android:textColor="#BFBFBF"
+                android:textSize="15sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_sobre_filme7" />
+
+            <TextView
+                android:id="@+id/txt_direcao_Batman"
+                android:layout_width="143dp"
+                android:layout_height="19dp"
+                android:layout_marginTop="28dp"
+                android:gravity="center_horizontal"
+                android:text="@string/christopher_nolan"
+                android:textAlignment="center"
+                android:textColor="#BFBFBF"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.054"
+                app:layout_constraintStart_toEndOf="@+id/txt_direcao"
+                app:layout_constraintTop_toBottomOf="@+id/txt_sobre_filme7" />
+
+            <ImageView
+                android:id="@+id/img_linha11"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="57dp"
+                android:layout_marginLeft="57dp"
+                android:layout_marginTop="5dp"
+                android:contentDescription="@string/img_linha"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_direcao_Batman"
+                app:srcCompat="@drawable/img_linha" />
+
+            <TextView
+                android:id="@+id/txt_producao"
+                android:layout_width="82dp"
+                android:layout_height="19dp"
+                android:layout_marginStart="58dp"
+                android:layout_marginLeft="58dp"
+                android:layout_marginTop="12dp"
+                android:gravity="center_horizontal"
+                android:text="@string/producao"
+                android:textAlignment="center"
+                android:textColor="#BFBFBF"
+                android:textSize="15sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_direcao" />
+
+            <TextView
+                android:id="@+id/txt_producao_Batman"
+                android:layout_width="143dp"
+                android:layout_height="19dp"
+                android:layout_marginTop="60dp"
+                android:gravity="center_horizontal"
+                android:text="@string/christopher_nolan"
+                android:textAlignment="center"
+                android:textColor="#BFBFBF"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/txt_producao"
+                app:layout_constraintTop_toBottomOf="@+id/txt_sobre_filme7" />
+
+            <ImageView
+                android:id="@+id/img_melhores_lancamentos"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="57dp"
+                android:layout_marginLeft="57dp"
+                android:layout_marginTop="5dp"
+                android:contentDescription="@string/img_linha"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_producao_Batman"
+                app:srcCompat="@drawable/img_linha" />
+
+            <TextView
+                android:id="@+id/txt_roteiro"
+                android:layout_width="79dp"
+                android:layout_height="19dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:text="@string/roteiro"
+                android:textAlignment="center"
+                android:textColor="#BFBFBF"
+                android:textSize="15sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_producao" />
+
+            <TextView
+                android:id="@+id/txt_roteiro_Batman"
+                android:layout_width="143dp"
+                android:layout_height="19dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center_horizontal"
+                android:text="@string/david_s_goyer"
+                android:textAlignment="center"
+                android:textColor="#BFBFBF"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.08"
+                app:layout_constraintStart_toEndOf="@+id/txt_roteiro"
+                app:layout_constraintTop_toBottomOf="@+id/txt_producao_Batman"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/txt_roteiro_Batman2"
+                android:layout_width="143dp"
+                android:layout_height="19dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center_horizontal"
+                android:text="@string/jonathan_nolan"
+                android:textAlignment="center"
+                android:textColor="#BFBFBF"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.08"
+                app:layout_constraintStart_toEndOf="@+id/txt_roteiro"
+                app:layout_constraintTop_toBottomOf="@+id/txt_roteiro_Batman"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="57dp"
+                android:layout_marginLeft="57dp"
+                android:layout_marginTop="5dp"
+                android:contentDescription="@string/img_linha"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_roteiro_Batman2"
+                app:srcCompat="@drawable/img_linha" />
+
+            <TextView
+                android:id="@+id/txt_elenco"
+                android:layout_width="79dp"
+                android:layout_height="19dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="40dp"
+                android:gravity="center_horizontal"
+                android:text="@string/elenco"
+                android:textAlignment="center"
+                android:textColor="#BFBFBF"
+                android:textSize="15sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_roteiro" />
+
+            <TextView
+                android:id="@+id/txt_elenco_Batman"
+                android:layout_width="143dp"
+                android:layout_height="19dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center_horizontal"
+                android:text="@string/christian_bale"
+                android:textAlignment="center"
+                android:textColor="#BFBFBF"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.076"
+                app:layout_constraintStart_toEndOf="@+id/txt_elenco"
+                app:layout_constraintTop_toBottomOf="@+id/txt_roteiro_Batman2" />
+
+            <TextView
+                android:id="@+id/txt_elenco_Batman2"
+                android:layout_width="143dp"
+                android:layout_height="19dp"
+                android:layout_marginStart="141dp"
+                android:layout_marginLeft="141dp"
+                android:gravity="center_horizontal"
+                android:text="@string/heath_ledger"
+                android:textAlignment="center"
+                android:textColor="#BFBFBF"
+                android:textSize="12sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_elenco_Batman" />
+
+            <TextView
+                android:id="@+id/txt_elenco_Batman3"
+                android:layout_width="143dp"
+                android:layout_height="19dp"
+                android:layout_marginStart="141dp"
+                android:layout_marginLeft="141dp"
+                android:gravity="center_horizontal"
+                android:text="@string/gary_oldman"
+                android:textAlignment="center"
+                android:textColor="#BFBFBF"
+                android:textSize="12sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_elenco_Batman2" />
+
+            <TextView
+                android:id="@+id/txt_elenco_Batman4"
+                android:layout_width="143dp"
+                android:layout_height="19dp"
+                android:layout_marginStart="141dp"
+                android:layout_marginLeft="141dp"
+                android:gravity="center_horizontal"
+                android:text="@string/michael_caine"
+                android:textAlignment="center"
+                android:textColor="#BFBFBF"
+                android:textSize="12sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_elenco_Batman3" />
+
+            <TextView
+                android:id="@+id/txt_elenco_Batman5"
+                android:layout_width="143dp"
+                android:layout_height="19dp"
+                android:layout_marginStart="141dp"
+                android:layout_marginLeft="141dp"
+                android:gravity="center_horizontal"
+                android:text="@string/cillian_murphy"
+                android:textAlignment="center"
+                android:textColor="#BFBFBF"
+                android:textSize="12sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_elenco_Batman4" />
+
+            <ImageView
+                android:id="@+id/img_linha10"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="57dp"
+                android:layout_marginLeft="57dp"
+                android:contentDescription="@string/img_linha"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_elenco_Batman5"
+                app:srcCompat="@drawable/img_linha" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="260dp"
+                android:layout_height="28dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="42dp"
+                android:background="#5C5858"
+                android:gravity="center_horizontal"
+                android:text="@string/genero_filme7"
+                android:textAlignment="center"
+                android:textColor="#DDDADA"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.39"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_elenco_Batman5" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
