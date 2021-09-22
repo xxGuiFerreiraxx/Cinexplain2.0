@@ -133,6 +133,22 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/btn_cad"
+        android:layout_width="358dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="388dp"
+        android:background="#00FFFFFF"
+        android:shadowColor="#ED1616"
+        android:shadowRadius="10"
+        android:text="Mantenha contato conosco"
+        android:textColor="#9E9D9D"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <ImageView
         android:id="@+id/icone_favorito"
         android:layout_width="50dp"
@@ -151,11 +167,23 @@
         android:id="@+id/img_linha3"
         android:layout_width="315dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:contentDescription="@string/img_linha"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.583"
+        app:layout_constraintHorizontal_bias="0.562"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_favorito"
+        app:layout_constraintTop_toBottomOf="@+id/btn_cad"
         app:srcCompat="@drawable/img_linha" />
+
+    <ImageView
+        android:id="@+id/img_linha4"
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/img_linha"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.572"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/img_linha"
+        tools:layout_editor_absoluteY="381dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

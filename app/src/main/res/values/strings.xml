@@ -145,4 +145,8 @@
     <string name="meat_loaf">Meat Loaf</string>
     <string name="g_nero_a_o_suspense_humor_negro_drama_crime">Gênero: ação / suspense / humor negro / drama / crime</string>
     <string name="trailer9">trailer9</string>
+    <string name="service_not_available">Serviço Indisponível</string>
+    <string name="invalid_lat_long_used">Coordenadas Inválidas</string>
+    <string name="no_address_found">Endereço não disponível</string>
+
 </resources>
