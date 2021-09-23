@@ -157,11 +157,6 @@ public class TelaPrincipal extends AppCompatActivity implements SensorEventListe
 
     //sensor
 
-    protected void OnPause(){
-        super.onPause();
-        sensorManager.unregisterListener(this);
-    }
-
     protected void onResume(){
         super.onResume();
         sensorManager.registerListener(this,sensorLum, SensorManager.SENSOR_DELAY_NORMAL);

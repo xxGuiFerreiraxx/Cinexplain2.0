@@ -29,19 +29,7 @@ public class Cad extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cad);
 
-        String uriText = null;
-        try {
-            uriText = "mailto:"+email+
-                    "?subject="+ URLEncoder.encode("Cinexplain:Sugestão","utf-8")+
-                    "&body="+URLEncoder.encode("A minha sugestão é:","utf-8");
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
-        }
-        Uri uri=Uri.parse(uriText);
 
-        Intent it=new Intent(Intent.ACTION_SENDTO);
-        it.setData(uri);
-        startActivity(Intent.createChooser(it,"Enviar Email"));
 
          ednome = (EditText) findViewById(R.id.edtNome);
          edemail = (EditText) findViewById(R.id.edtEmail);
@@ -61,6 +49,20 @@ public class Cad extends AppCompatActivity {
                 ed.apply();
                 Toast.makeText(getBaseContext(),"Gravado com sucesso",
                         Toast.LENGTH_SHORT).show();
+
+                String uriText = null;
+                try {
+                    uriText = "mailto:"+"cinexplain@gmail.com"+
+                            "?subject="+ URLEncoder.encode("Cinexplain:Sugestão","utf-8")+
+                            "&body="+URLEncoder.encode("A minha sugestão é:","utf-8");
+                } catch (UnsupportedEncodingException e) {
+                    e.printStackTrace();
+                }
+                Uri uri=Uri.parse(uriText);
+
+                Intent it=new Intent(Intent.ACTION_SENDTO);
+                it.setData(uri);
+                startActivity(Intent.createChooser(it,"Enviar Email"));
             }
         });
 

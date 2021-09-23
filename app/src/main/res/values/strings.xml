@@ -148,5 +148,12 @@
     <string name="service_not_available">Serviço Indisponível</string>
     <string name="invalid_lat_long_used">Coordenadas Inválidas</string>
     <string name="no_address_found">Endereço não disponível</string>
+    <string name="mande_uma_sugest_o">Mande uma sugestão</string>
+    <string name="gravar">Gravar</string>
+    <string name="limpar">Limpar</string>
+    <string name="recuperar">Recuperar</string>
+    <string name="nome">Nome</string>
+    <string name="email">Email</string>
+    <string name="faca_uma_sugestao">Faça uma sugestão</string>
 
 </resources>
