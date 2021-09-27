@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,TelaPrincipal.class);
+                Intent intent = new Intent(MainActivity.this,entrar.class);
                 startActivity(intent);
 
 

@@ -155,5 +155,11 @@
     <string name="nome">Nome</string>
     <string name="email">Email</string>
     <string name="faca_uma_sugestao">Faça uma sugestão</string>
+    <string name="digite_seu_username">Digite seu UserName:</string>
+    <string name="entrar">entrar</string>
+    <string name="digite_sua_senha">Digite sua senha:</string>
+    <string name="faca_sua_avaliacao">Faça sua avaliação:</string>
+    <string name="avalia_o_feita">Avaliação feita</string>
+    <string name="avalie_nosso_aplicativo">Avalie nosso aplicativo</string>
 
 </resources>

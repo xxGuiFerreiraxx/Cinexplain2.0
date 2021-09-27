@@ -34,12 +34,14 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Switch;
+import android.widget.TextView;
 import android.widget.Toast;
 
 
 public class MenuTela extends AppCompatActivity {
 
-    Button mapa, voltar_tela_principal, sair, cad;
+    Button mapa, voltar_tela_principal, sair, cad, aval;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,6 +49,17 @@ public class MenuTela extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu_tela);
 
+        aval = findViewById(R.id.btn_avaliacao);
+        aval.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MenuTela.this, avaliacao.class);
+                startActivity(intent);
+
+
+            }
+        });
         mapa = findViewById(R.id.btn_mapa);
         mapa.setOnClickListener( new View.OnClickListener() {
 

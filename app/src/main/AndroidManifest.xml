@@ -4,9 +4,14 @@
     package="com.example.appsorteio">
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
 
-    <uses-permission android:name="android.permission.WRITE_SETTINGS"
-    tools:ignore="ProtectedPermissions" />
+    <uses-permission
+    android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission
+    android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -15,6 +20,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/cinexplainFullScream">
+        <activity
+            android:name=".avaliacao"
+            android:exported="true" />
+        <activity
+            android:name=".entrar"
+            android:exported="true" />
+        <activity
+            android:name=".entre"
+            android:exported="true" />
         <activity
             android:name=".Cad"
             android:exported="true" />
